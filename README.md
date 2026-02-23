@@ -3,10 +3,15 @@
 Aim: Study of for loop in python
 
 ## Theory:
+
 A for loop in Python is used to iterate over a sequence (such as a list, tuple, string, dictionary, set, or range) and execute a block of code repeatedly — once for each item in that sequence.  
+
 The range() function generates a sequence of numbers.  
-Break: Stops the loop completely.    
-Continue: Skips the current iteration.  
+
+Break: Stops the loop completely.
+
+Continue: Skips the current iteration. 
+
 Multiplying two 3x3 Matrix:
 for i in range(3):          # rows of a  
   for j in range(3):        # rows of b    
@@ -17,8 +22,11 @@ for row in result:
 
 ## Algoritm:
 A)Print Even Numbers from 1 to 10:
+
 Start
+
 Initialize a loop starting at i = 2, ending before 11, with a step increment of 2.
+
 In each iteration, print the current value of i.
 End
 
@@ -70,15 +78,6 @@ Start
 Set rows = 5.
 Loop from i = 1 to rows.
 In each iteration, print spaces equal to (rows - i) followed by the string "* " multiplied by i.
-End
-
-G)Print All Prime Numbers (2 to 49):
-Start
-Outer loop: Iterate n from 2 to 49.
-Inner loop: Iterate i from 2 up to n-1.
-Check if n is divisible by i (n % i == 0).
-If divisible, break the inner loop (not a prime).
-If the inner loop completes without a break, print n (it is prime).
 End
 
 ## Conclusion:
